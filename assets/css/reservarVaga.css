@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgLogo{
+    width: 10vw;
+    height: 17vh;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.mainForm{
+    background-color: white;
+    width: 29vw;
+    height: 80vh;
+    border: 3px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.tituloFormReserva{
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    margin-top: 2vh;
+}
+
+#form{
+    width: 27.5vw;
+    height: 58vh;
+}
+
+.divInputs{
+    margin-top: 1vh;
+}
+
+.tituloInput{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.inputReserva{
+    width: 97%;
+    height: 34px;
+    background-color: #F5F5F5;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-left: 2%;
+}
+
+#btnReservar{
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    height: 32px;
+    background-color: #A17222;
+    margin-top: 3vh;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.header{
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoHeader{
+    height: 100%;
+}
+
+.btnHeader{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    height: 35px;
+    width: 280px;
+    background-color: #A17222;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mainVagas{
+    width: 85vw;
+    height: 100%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardVaga{
+    width: 280px;
+    height: 290px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#defVaga{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    margin-bottom: 0;
+}
+
+#nVaga{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.textCard{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5vh;
+    margin-top: 0;
+}
+
+.linha{
+    width: 250px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 2vh;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/reservarVaga.css">
+    <link rel="shortcut icon" href="./assets/svg/logo_simples_dourada.svg">
+    <title>E-Park - Reservar vaga</title>
+</head>
+<body>
+    <img src="./assets/svg/logo.svg" alt="alfinete de mapa para vaga de estacionamento" class="imgLogo" />
+    <main class="mainForm">
+        <h1 class="tituloFormReserva">Reservar vaga</h1>
+        <form id="form">
+            <div>
+                <h2 class="tituloInput">Placa do veículo</h2>
+                <input class="inputReserva" id="placaVeiculo" type="text" required minlength="7" maxlength="8" />
+            </div>
+            <div class="divInputs">
+                <h2 class="tituloInput">Nome do proprietário</h2>
+                <input class="inputReserva" id="nomeProprietario" type="text" required minlength="3" />
+            </div>
+            <div class="divInputs">
+                <h2 class="tituloInput">N° do apartamento</h2>
+                <input class="inputReserva" id="nApartamento" type="number" required minlength="1" />
+            </div>
+            <div class="divInputs">
+                <h2 class="tituloInput">Bloco do apartamento</h2>
+                <input class="inputReserva" id="blocoApartamento" type="text" required />
+            </div>
+            <div class="divInputs">
+                <h2 class="tituloInput">Modelo do veículo</h2>
+                <input class="inputReserva" id="modeloVeiculo" type="text" required />
+            </div>
+            <div class="divInputs">
+                <h2 class="tituloInput">Cor do veículo</h2>
+                <input class="inputReserva" id="corVeiculo" type="text" required />
+            </div>
+            <div class="divInputs">
+                <h2 class="tituloInput">N° da vaga de estacionamento</h2>
+                <input class="inputReserva" id="nVaga" type="number" required />
+            </div>
+            <button id="btnReservar">Reservar vaga</button>
+        </form>
+    </main>
+</body>
+<script src="assets/js/reservarVaga.js"></script>
+</html>
