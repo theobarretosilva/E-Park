@@ -112,32 +112,28 @@ function renderizarVagas() {
     });
 }
 
+// document.addEventListener('DOMContentLoaded', function () {
+//     const btnReservadas = document.getElementById('btnReservadas');
+//     const btnDisponiveis = document.getElementById('btnDisponiveis');
 
-// Adiciona event listeners aos botões
-document.addEventListener('DOMContentLoaded', function () {
-    const btnReservadas = document.getElementById('btnReservadas');
-    const btnDisponiveis = document.getElementById('btnDisponiveis');
+//     btnReservadas.addEventListener('click', function () {
+//         mostrarVagas('reservada');
+//     });
 
-    btnReservadas.addEventListener('click', function () {
-        mostrarVagas('reservada');
-    });
+//     btnDisponiveis.addEventListener('click', function () {
+//         mostrarVagas('disponivel');
+//     });
 
-    btnDisponiveis.addEventListener('click', function () {
-        mostrarVagas('disponivel');
-    });
+//     function mostrarVagas(classe) {
+//         const todasAsVagas = document.querySelectorAll('.cardVaga');
+//         todasAsVagas.forEach(vaga => {
+//             if (vaga.classList.contains(classe)) {
+//                 vaga.style.display = 'block';
+//             } else {
+//                 vaga.style.display = 'none';
+//             }
+//         });
+//     }
+// });
 
-    // Função para mostrar apenas as vagas com a classe especificada
-    function mostrarVagas(classe) {
-        const todasAsVagas = document.querySelectorAll('.cardVaga');
-        todasAsVagas.forEach(vaga => {
-            if (vaga.classList.contains(classe)) {
-                vaga.style.display = 'block';
-            } else {
-                vaga.style.display = 'none';
-            }
-        });
-    }
-});
-
-// Chama a função de renderização ao carregar a página
 window.onload = renderizarVagas;

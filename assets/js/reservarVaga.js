@@ -23,4 +23,5 @@ function showDataConsole(event) {
     };
 
     console.log(auxReserva);
+    alert("Reserva realizada com sucesso!");
 }
